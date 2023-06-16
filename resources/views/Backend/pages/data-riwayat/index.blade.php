@@ -48,8 +48,7 @@
                             <th class="align-middle">No.</th>
                             <th class="align-middle">Nama Pemilik</th>
                             <th class="align-middle">Hasil Diagnosa</th>
-                            <th class="align-middle">Solusi</th>
-                            <th></th>
+                            <th class="align-middle">Aksi</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -60,14 +59,14 @@
                             <tr>
                                 <td class="align-middle text-center">{{ $i }}</td>
                                 <td class="align-middle text-center">{{ $listDiagnosa->nama_pemilik }}</td>
-                                <td class="align-middle text-center" colspan="2">
+                                <td class="align-middle text-center">
                                     <a href="{{ URL::to('data-riwayat/' . $listDiagnosa->id_diagnosa) }}"
                                         class="btn btn-custom-2">
                                         <i class="fas fa-eye me-1"></i>
                                         Lihat Data
                                     </a>
                                 </td>
-                                <td class="align-middle text-center">
+                                <td class="align-middle text-center"> 
                                     <form action="{{ URL::to('data-riwayat/' . $listDiagnosa->id_diagnosa) }}"
                                         method="POST" class="d-inline">
                                         @csrf
