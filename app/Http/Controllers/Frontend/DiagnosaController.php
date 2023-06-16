@@ -51,6 +51,23 @@ class DiagnosaController extends Controller
             if (count($arrHasilUser) < Penyakit::count() + 1) {
                 return back()->withInput()->with('error', 'Minimal gejala yang dipilih adalah ' . (Penyakit::count() + 1) . ' gejala');
             } else {
+                // foreach ($arrHasilUser as $key => $value) {
+                //     $dataPenyakit[$key] = BasisPengetahuan::where('kode_gejala', $value)
+                //         ->select('kode_penyakit')
+                //         ->get()
+                //         ->toArray();
+                //     foreach ($dataPenyakit[$key] as $a => $b) {
+                //         $resultData[$key]['daftar_penyakit'][$a] = $b['kode_penyakit'];
+                //     }
+                //     $dataNilaiDensitas[$key] = Gejala::where('kode_gejala', $value)
+                //         ->select('nilai_densitas', 'gejala')
+                //         ->get()
+                //         ->toArray();
+                //     $dataGejala[$key] = $dataNilaiDensitas[$key][0]['gejala'];
+                //     $resultData[$key]['belief'] = $dataNilaiDensitas[$key][0]['nilai_densitas'];
+                //     $resultData[$key]['plausibility'] = 1 - $dataNilaiDensitas[$key][0]['nilai_densitas'];
+                // }
+
                 foreach ($arrHasilUser as $key => $value) {
                     $dataPenyakit[$key] = BasisPengetahuan::where('kode_gejala', $value)
                         ->select('kode_penyakit')
@@ -59,11 +76,12 @@ class DiagnosaController extends Controller
                     foreach ($dataPenyakit[$key] as $a => $b) {
                         $resultData[$key]['daftar_penyakit'][$a] = $b['kode_penyakit'];
                     }
-                    $dataNilaiDensitas[$key] = Gejala::where('kode_gejala', $value)
-                        ->select('nilai_densitas', 'gejala')
+
+                    $dataNilaiDensitas[$key] = BasisPengetahuan::where('kode_gejala', $value)
+                        ->select('nilai_densitas', 'kode_gejala', 'kode_penyakit')
                         ->get()
                         ->toArray();
-                    $dataGejala[$key] = $dataNilaiDensitas[$key][0]['gejala'];
+                    $dataGejala[$key] = $dataNilaiDensitas[$key][0]['kode_gejala'];
                     $resultData[$key]['belief'] = $dataNilaiDensitas[$key][0]['nilai_densitas'];
                     $resultData[$key]['plausibility'] = 1 - $dataNilaiDensitas[$key][0]['nilai_densitas'];
                 }

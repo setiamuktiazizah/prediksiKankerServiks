@@ -111,11 +111,13 @@ class DataBasisPengetahuanController extends Controller
 
         $validateReq = $request->validate([
             'kode_penyakit' => 'required',
-            'kode_gejala' => 'required'
+            'kode_gejala' => 'required',
+            'nilai_densitas' => 'required'
         ]);
 
         $dataBasisPengetahuan->kode_penyakit = $validateReq['kode_penyakit'];
         $dataBasisPengetahuan->kode_gejala = $validateReq['kode_gejala'];
+        $dataBasisPengetahuan->nilai_densitas = $validateReq['nilai_densitas'];
         $dataBasisPengetahuan->save();
 
         return redirect()->to('data-basis-pengetahuan')->with('success', 'Data Basis Pengetahuan berhasil diubah');

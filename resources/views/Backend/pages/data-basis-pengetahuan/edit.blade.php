@@ -55,6 +55,15 @@
                         </div>
                     </div>
                     <div class="mb-3 row">
+                        <label for="nilai_densitas" class="col-sm-2 col-form-label text-custom">Nilai Densitas</label>
+                        <div class="col-sm-5">
+                            <input type="text" min="0" name="nilai_densitas" id="nilai_densitas" value="{{old('nilai_densitas', $dataBasisPengetahuan['nilai_densitas'])}} ">
+                            @error('nilai_densitas')
+                                <p class="invalid-feedback d-block">{{ $message }}</p>
+                            @enderror
+                        </div>
+                    </div>
+                    <div class="mb-3 row">
                         <div class="d-grid gap-2 d-md-flex justify-content-md-end">
                             <button class="btn btn-custom-2 me-md-2" type="submit">
                                 <i class="fas fa-save me-1"></i>

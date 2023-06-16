@@ -56,7 +56,7 @@
                     <div class="mb-3 row">
                         <label for="nilai_densitas" class="col-sm-2 col-form-label text-custom">Nilai Densitas</label>
                         <div class="col-sm-5">
-                            <input type="number" name="nilai_densitas" id="nilai_densitas">
+                            <input type="text" min="0" name="nilai_densitas" id="nilai_densitas">
                             @error('nilai_densitas')
                                 <p class="invalid-feedback d-block">{{ $message }}</p>
                             @enderror
