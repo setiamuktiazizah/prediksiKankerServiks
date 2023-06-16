@@ -52,6 +52,7 @@
                             <th class="align-middle">No.</th>
                             <th class="align-middle">Kode Penyakit</th>
                             <th class="align-middle">Kode Gejala</th>
+                            <th class="align-middle">Nilai Densitas</th>
                             <th class="align-middle"></th>
                         </tr>
                     </thead>
@@ -64,6 +65,7 @@
                                 <td class="align-middle text-center">{{ $i }}</td>
                                 <td class="align-middle text-center">{{ $listBasisPengetahuan->kode_penyakit }}</td>
                                 <td class="align-middle text-center">{{ $listBasisPengetahuan->kode_gejala }}</td>
+                                <td class="align-middle text-center">{{ $listBasisPengetahuan->nilai_densitas }}</td>
                                 <td class="align-middle text-center">
                                     <a href="{{ URL::to('data-basis-pengetahuan/' . $listBasisPengetahuan->id_basis_pengetahuan) . '/edit' }}"
                                         class="btn btn-warning px-3">

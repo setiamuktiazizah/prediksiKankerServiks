@@ -52,7 +52,7 @@
                             <th class="align-middle">No.</th>
                             <th class="align-middle">Kode Gejala</th>
                             <th class="align-middle">Nama Gejala</th>
-                            <th class="align-middle">Nilai Densitas</th>
+                            {{-- <th class="align-middle">Nilai Densitas</th> --}}
                             <th class="align-middle"></th>
                         </tr>
                     </thead>
@@ -65,7 +65,7 @@
                                 <td class="align-middle text-center">{{ $i }}</td>
                                 <td class="align-middle text-center">{{ $listGejala->kode_gejala }}</td>
                                 <td class="align-middle">{{ $listGejala->gejala }}</td>
-                                <td class="align-middle text-center">{{ $listGejala->nilai_densitas }}</td>
+                                {{-- <td class="align-middle text-center">{{ $listGejala->nilai_densitas }}</td> --}}
                                 <td class="align-middle text-center">
                                     <a href="{{ URL::to('data-gejala/' . $listGejala->id_gejala) . '/edit' }}"
                                         class="btn btn-warning px-3">

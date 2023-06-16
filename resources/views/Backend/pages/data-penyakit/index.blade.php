@@ -14,7 +14,7 @@
         <!-- Content Row -->
         <div class="card kartu-custom mb-5">
             <div class="card-header">
-                <p class="m-0 p-0 text-white"><b>Data Penyakit</b></p>
+                <p class="m-0 p-0 text-white"><b>Data Prediksi</b></p>
             </div>
             <div class="card-body">
                 @if (session()->has('success'))
@@ -50,9 +50,9 @@
                     <thead class="text-center">
                         <tr>
                             <th class="align-middle">No.</th>
-                            <th class="align-middle">Kode Penyakit</th>
-                            <th class="align-middle">Nama Penyakit</th>
-                            <th class="align-middle">Solusi Penyakit</th>
+                            <th class="align-middle">Kode Prediksi</th>
+                            <th class="align-middle">Jenis Prediksi</th>
+                            <th class="align-middle">Rekomendasi</th>
                             <th class="align-middle"></th>
                         </tr>
                     </thead>

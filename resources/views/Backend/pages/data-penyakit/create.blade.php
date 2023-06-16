@@ -14,13 +14,13 @@
         <!-- Content Row -->
         <div class="card kartu-custom mb-5">
             <div class="card-header">
-                <p class="m-0 p-0 text-white"><b>Tambah Data Penyakit</b></p>
+                <p class="m-0 p-0 text-white"><b>Tambah Data Prediksi</b></p>
             </div>
             <div class="card-body">
                 <form action="{{ URL::to('data-penyakit') }}" method="POST">
                     @csrf
                     <div class="mb-3 row">
-                        <label for="kode_penyakit" class="col-sm-2 col-form-label text-custom">Kode Penyakit</label>
+                        <label for="kode_penyakit" class="col-sm-2 col-form-label text-custom">Kode Prediksi</label>
                         <div class="col-sm-2">
                             <input type="text" class="form-control @error('kode_penyakit') is-invalid @enderror"
                                 id="kode_penyakit" name="kode_penyakit" value="{{ old('kode_penyakit') }}">
@@ -32,7 +32,7 @@
                         </div>
                     </div>
                     <div class="mb-3 row">
-                        <label for="nama_penyakit" class="col-sm-2 col-form-label text-custom">Nama Penyakit</label>
+                        <label for="nama_penyakit" class="col-sm-2 col-form-label text-custom">Jenis Prediksi</label>
                         <div class="col-sm-5">
                             <input type="text" class="form-control @error('nama_penyakit') is-invalid @enderror"
                                 id="nama_penyakit" name="nama_penyakit" value="{{ old('nama_penyakit') }}">
@@ -44,7 +44,7 @@
                         </div>
                     </div>
                     <div class="mb-3 row">
-                        <label for="nama_penyakit" class="col-sm-2 col-form-label text-custom">Solusi Penyakit</label>
+                        <label for="nama_penyakit" class="col-sm-2 col-form-label text-custom">Rekomendasi</label>
                         <div class="col-sm-8" id="containerSolusi">
                             <button class="btn btn-custom-2 mb-2" type="button" onclick="addInput('nama_penyakit');">
                                 <i class="fas fa-plus me-1"></i>

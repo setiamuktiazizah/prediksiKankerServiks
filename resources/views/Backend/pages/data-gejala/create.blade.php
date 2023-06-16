@@ -43,7 +43,7 @@
                             @enderror
                         </div>
                     </div>
-                    <div class="mb-3 row">
+                    {{-- <div class="mb-3 row">
                         <label for="nilai_densitas" class="col-sm-2 col-form-label text-custom">Nilai Densitas</label>
                         <div class="col-sm-2">
                             <input type="number" class="form-control @error('nilai_densitas') is-invalid @enderror"
@@ -54,7 +54,7 @@
                                 </div>
                             @enderror
                         </div>
-                    </div>
+                    </div> --}}
                     <div class="mb-3 row">
                         <div class="d-grid gap-2 d-md-flex justify-content-md-end">
                             <button class="btn btn-custom-2 me-md-2" type="submit">

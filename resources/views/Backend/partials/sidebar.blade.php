@@ -5,7 +5,7 @@
         <div class="sidebar-brand-icon rotate-n-15">
             <i class="fas fa-database"></i>
         </div>
-        <div class="sidebar-brand-text mx-3">SP Dempster Shafer</div>
+        <div class="sidebar-brand-text mx-3">SP Prediksi Kanker Serviks</div>
     </a>
 
     <!-- Divider -->
@@ -30,7 +30,7 @@
     <li class="nav-item {{ $navLink == 'data-penyakit' ? 'active' : '' }}">
         <a class="nav-link" href="{{ URL::to('/data-penyakit') }}">
             <i class="fas fa-virus"></i>
-            <span>Data Penyakit</span></a>
+            <span>Data Prediksi</span></a>
     </li>
 
     <!-- Nav Item - Data Gejala -->

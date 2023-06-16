@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>SP Dempster Shafer | Dashboard</title>
+    <title>SP Prediksi Kanker Serviks | Dashboard</title>
 
     {{-- Bootstrap 5 CSS --}}
     <link rel="stylesheet" href="{{ URL::to('vendor/bootstrap5/css/bootstrap.min.css') }}">

@@ -19,6 +19,7 @@ class CreateTabelBasisPengetahuan extends Migration
             $table->id('id_basis_pengetahuan');
             $table->string('kode_penyakit');
             $table->string('kode_gejala');
+            $table->double('nilai_densitas');
             $table->timestamps();
         });
 
@@ -26,125 +27,146 @@ class CreateTabelBasisPengetahuan extends Migration
             [
                 'kode_penyakit' => 'P01',
                 'kode_gejala' => 'G02',
+                'nilai_densitas' => 0.5,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
             [
                 'kode_penyakit' => 'P01',
                 'kode_gejala' => 'G04',
+                'nilai_densitas' => 0.5,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
             [
                 'kode_penyakit' => 'P01',
                 'kode_gejala' => 'G05',
+                'nilai_densitas' => 0.5,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
             [
                 'kode_penyakit' => 'P01',
                 'kode_gejala' => 'G06',
+                'nilai_densitas' => 0.5,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ], [
                 'kode_penyakit' => 'P01',
                 'kode_gejala' => 'G07',
+                'nilai_densitas' => 0.5,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
             [
                 'kode_penyakit' => 'P01',
                 'kode_gejala' => 'G08',
+                'nilai_densitas' => 0.5,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
             [
                 'kode_penyakit' => 'P01',
                 'kode_gejala' => 'G09',
+                'nilai_densitas' => 0.5,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
             [
                 'kode_penyakit' => 'P01',
                 'kode_gejala' => 'G10',
+                'nilai_densitas' => 0.5,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
             [
                 'kode_penyakit' => 'P01',
                 'kode_gejala' => 'G11',
+                'nilai_densitas' => 0.5,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
             [
                 'kode_penyakit' => 'P01',
                 'kode_gejala' => 'G12',
+                'nilai_densitas' => 0.5,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
             [
                 'kode_penyakit' => 'P01',
                 'kode_gejala' => 'G14',
+                'nilai_densitas' => 0.5,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
             [
                 'kode_penyakit' => 'P01',
                 'kode_gejala' => 'G15',
+                'nilai_densitas' => 0.5,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
             [
                 'kode_penyakit' => 'P02',
                 'kode_gejala' => 'G01',
+                'nilai_densitas' => 0.5,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
             [
                 'kode_penyakit' => 'P02',
                 'kode_gejala' => 'G03',
+                'nilai_densitas' => 0.5,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
             [
                 'kode_penyakit' => 'P02',
                 'kode_gejala' => 'G04',
+                'nilai_densitas' => 0.5,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
             [
                 'kode_penyakit' => 'P02',
                 'kode_gejala' => 'G07',
+                'nilai_densitas' => 0.5,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
             [
                 'kode_penyakit' => 'P02',
                 'kode_gejala' => 'G08',
+                'nilai_densitas' => 0.5,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
             [
                 'kode_penyakit' => 'P02',
                 'kode_gejala' => 'G10',
+                'nilai_densitas' => 0.5,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
             [
                 'kode_penyakit' => 'P02',
                 'kode_gejala' => 'G12',
+                'nilai_densitas' => 0.5,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
             [
                 'kode_penyakit' => 'P02',
                 'kode_gejala' => 'G13',
+                'nilai_densitas' => 0.5,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
             [
                 'kode_penyakit' => 'P02',
                 'kode_gejala' => 'G15',
+                'nilai_densitas' => 0.5,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ]
