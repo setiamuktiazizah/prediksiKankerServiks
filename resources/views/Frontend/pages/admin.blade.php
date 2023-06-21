@@ -1,22 +1,8 @@
 @extends('Frontend.layouts.main')
 
 @section('content-wrapper')
-    <div class="row my-lg-5">
-        <div class="col-sm-6 my-lg-5 my-5">
-            <div class="my-lg-5">
-                <h4 class="text-custom">Sistem Pakar Metode Dempster Shafer</h4>
-                <p class="text-custom-2">
-                    Sistem pakar ini digunakan untuk menentukan jenis gangguan saluran pencernaan pada hewan
-                    musang. Manfaat dari sistem pakar ini adalah untuk dapat memberikan pengetahuan kepada
-                    pemilik hewan musang dengan cepat bagaimana cara mengatasi gangguan saluran pencernaan
-                    pada
-                    hewan musang.
-                </p>
-                <a href="{{ URL::to('diagnosa') }}" class="btn btn-custom"><i class="fas fa-play-circle me-1"></i> Mulai
-                    Konsultasi</a>
-            </div>
-        </div>
-        {{-- <div class="col-sm-6 my-lg-5 px-lg-5">
+    <div class="row justify-content-center">
+        <div class="col-sm-6 my-lg-5 px-lg-5">
             <div class="card mx-lg-5 login-session">
                 <div class="card-body">
                     <h4 class="card-title text-center text-custom mb-4">Login Admin</h4>
@@ -79,6 +65,6 @@
                     </form>
                 </div>
             </div>
-        </div> --}}
+        </div>
     </div>
 @endsection

@@ -9,7 +9,9 @@
         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link {{ $navLink == 'home' ? 'active' : '' }}" href="{{ URL::to('/') }}">Home</a>
+                    <a class="nav-link {{ $navLink == 'home' ? 'active' : '' }}" 
+                        {{-- href="{{ URL::to('/') }}" --}}
+                        >Home</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link {{ $navLink == 'diagnosa' ? 'active' : '' }}"
@@ -18,6 +20,10 @@
                 <li class="nav-item">
                     <a class="nav-link {{ $navLink == 'pedoman' ? 'active' : '' }}"
                         href="{{ URL::to('pedoman') }}">Pedoman</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link {{ $navLink == 'admin' ? 'active' : '' }}"
+                        href="{{ URL::to('admin') }}">Admin</a>
                 </li>
             </ul>
         </div>
