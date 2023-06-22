@@ -20,7 +20,7 @@ class CreateTabelDataGejala extends Migration
             $table->string('kode_gejala')->unique();
             $table->string('gejala');
             $table->timestamps();
-        });
+        }); 
 
         $insertedData = [
             [
@@ -214,98 +214,203 @@ class CreateTabelDataGejala extends Migration
             ],
             [
                 'kode_gejala' => 'G28',
-                'gejala' => 'Pernah berhubungan seksual',
+                'gejala' => 'Tidak merokok',
                 // 'nilai_densitas' => 0.5,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
             [
                 'kode_gejala' => 'G29',
-                'gejala' => 'Menggunakan konstraseptif hormonal',
+                'gejala' => 'Pernah berhubungan seksual',
                 // 'nilai_densitas' => 0.5,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
             [
                 'kode_gejala' => 'G30',
-                'gejala' => 'Menggunakan IUD',
+                'gejala' => 'Tidak pernah berhubungan seksual',
                 // 'nilai_densitas' => 0.5,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
             [
                 'kode_gejala' => 'G31',
-                'gejala' => 'Pernah mengalami penyakit menular seksual (PMS)',
+                'gejala' => 'Menggunakan konstraseptif hormonal',
                 // 'nilai_densitas' => 0.5,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
             [
                 'kode_gejala' => 'G32',
-                'gejala' => 'Pernah mengalami Condylomatosis',
+                'gejala' => 'Tidak menggunakan konstraseptif hormonal',
                 // 'nilai_densitas' => 0.5,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
             [
                 'kode_gejala' => 'G33',
-                'gejala' => 'Pernah mengalami Vaginal Condylomatosis',
+                'gejala' => 'Menggunakan IUD',
                 // 'nilai_densitas' => 0.5,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
             [
                 'kode_gejala' => 'G34',
-                'gejala' => 'Pernah mengalami Vulvo Perineal Condylomatosis',
+                'gejala' => 'Tidak menggunakan IUD',
                 // 'nilai_densitas' => 0.5,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
             [
                 'kode_gejala' => 'G35',
-                'gejala' => 'Pernah mengalami Syphilis',
+                'gejala' => 'Pernah mengalami penyakit menular seksual (PMS)',
                 // 'nilai_densitas' => 0.5,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
             [
                 'kode_gejala' => 'G36',
-                'gejala' => 'Pernah mengalami penyakit radang panggul (Pelvic Inflammatory Disease)',
+                'gejala' => 'Tidak pernah mengalami penyakit menular seksual (PMS)',
                 // 'nilai_densitas' => 0.5,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
             [
                 'kode_gejala' => 'G37',
-                'gejala' => 'Pernah mengalami herpes genital',
+                'gejala' => 'Pernah mengalami Condylomatosis',
                 // 'nilai_densitas' => 0.5,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
             [
                 'kode_gejala' => 'G38',
-                'gejala' => 'Pernah mengalami Moluskum Kontagiosum (Molluscum Contagiosum)',
+                'gejala' => 'Tidak pernah mengalami Condylomatosis',
                 // 'nilai_densitas' => 0.5,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
             [
                 'kode_gejala' => 'G39',
-                'gejala' => 'Pernah mengalami HIV',
+                'gejala' => 'Pernah mengalami Vaginal Condylomatosis',
                 // 'nilai_densitas' => 0.5,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
             [
                 'kode_gejala' => 'G40',
-                'gejala' => 'Pernah mengalami Hepatitis B',
+                'gejala' => 'Tidak pernah mengalami Vaginal Condylomatosis',
                 // 'nilai_densitas' => 0.5,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
             [
                 'kode_gejala' => 'G41',
+                'gejala' => 'Pernah mengalami Vulvo Perineal Condylomatosis',
+                // 'nilai_densitas' => 0.5,
+                'created_at' => Carbon::now(),
+                'updated_at' => Carbon::now()
+            ],
+            [
+                'kode_gejala' => 'G42',
+                'gejala' => 'Tidak pernah mengalami Vulvo Perineal Condylomatosis',
+                // 'nilai_densitas' => 0.5,
+                'created_at' => Carbon::now(),
+                'updated_at' => Carbon::now()
+            ],
+            [
+                'kode_gejala' => 'G43',
+                'gejala' => 'Pernah mengalami Syphilis',
+                // 'nilai_densitas' => 0.5,
+                'created_at' => Carbon::now(),
+                'updated_at' => Carbon::now()
+            ],
+            [
+                'kode_gejala' => 'G44',
+                'gejala' => 'Tidak pernah mengalami Syphilis',
+                // 'nilai_densitas' => 0.5,
+                'created_at' => Carbon::now(),
+                'updated_at' => Carbon::now()
+            ],
+            [
+                'kode_gejala' => 'G45',
+                'gejala' => 'Pernah mengalami penyakit radang panggul (Pelvic Inflammatory Disease)',
+                // 'nilai_densitas' => 0.5,
+                'created_at' => Carbon::now(),
+                'updated_at' => Carbon::now()
+            ],
+            [
+                'kode_gejala' => 'G46',
+                'gejala' => 'Tidak pernah mengalami penyakit radang panggul (Pelvic Inflammatory Disease)',
+                // 'nilai_densitas' => 0.5,
+                'created_at' => Carbon::now(),
+                'updated_at' => Carbon::now()
+            ],
+            [
+                'kode_gejala' => 'G47',
+                'gejala' => 'Pernah mengalami herpes genital',
+                // 'nilai_densitas' => 0.5,
+                'created_at' => Carbon::now(),
+                'updated_at' => Carbon::now()
+            ],
+            [
+                'kode_gejala' => 'G48',
+                'gejala' => 'Tidak pernah mengalami herpes genital',
+                // 'nilai_densitas' => 0.5,
+                'created_at' => Carbon::now(),
+                'updated_at' => Carbon::now()
+            ],
+            [
+                'kode_gejala' => 'G49',
+                'gejala' => 'Pernah mengalami Moluskum Kontagiosum (Molluscum Contagiosum)',
+                // 'nilai_densitas' => 0.5,
+                'created_at' => Carbon::now(),
+                'updated_at' => Carbon::now()
+            ],
+            [
+                'kode_gejala' => 'G50',
+                'gejala' => 'Tidak pernah mengalami Moluskum Kontagiosum (Molluscum Contagiosum)',
+                // 'nilai_densitas' => 0.5,
+                'created_at' => Carbon::now(),
+                'updated_at' => Carbon::now()
+            ],
+            [
+                'kode_gejala' => 'G51',
+                'gejala' => 'Pernah mengalami HIV',
+                // 'nilai_densitas' => 0.5,
+                'created_at' => Carbon::now(),
+                'updated_at' => Carbon::now()
+            ],
+            [
+                'kode_gejala' => 'G52',
+                'gejala' => 'Tidak pernah mengalami HIV',
+                // 'nilai_densitas' => 0.5,
+                'created_at' => Carbon::now(),
+                'updated_at' => Carbon::now()
+            ],
+            [
+                'kode_gejala' => 'G53',
+                'gejala' => 'Pernah mengalami Hepatitis B',
+                // 'nilai_densitas' => 0.5,
+                'created_at' => Carbon::now(),
+                'updated_at' => Carbon::now()
+            ],
+            [
+                'kode_gejala' => 'G54',
+                'gejala' => 'Tidak pernah mengalami Hepatitis B',
+                // 'nilai_densitas' => 0.5,
+                'created_at' => Carbon::now(),
+                'updated_at' => Carbon::now()
+            ],
+            [
+                'kode_gejala' => 'G55',
                 'gejala' => 'Pernah mengalami HPV',
+                // 'nilai_densitas' => 0.5,
+                'created_at' => Carbon::now(),
+                'updated_at' => Carbon::now()
+            ],
+            [
+                'kode_gejala' => 'G56',
+                'gejala' => 'Tidak pernah mengalami HPV',
                 // 'nilai_densitas' => 0.5,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
