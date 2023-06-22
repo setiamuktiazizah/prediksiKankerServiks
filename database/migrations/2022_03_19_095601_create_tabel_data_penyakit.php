@@ -26,7 +26,7 @@ class CreateTabelDataPenyakit extends Migration
         $insertedData = [
             [
                 'kode_penyakit' => 'P01',
-                'nama_penyakit' => 'Cacing Hati',
+                'nama_penyakit' => 'Terprediksi',
                 'solusi' => json_encode([
                     '- Pemberian obat cacing yang dapat membasmi cacing hati, seperti Wormection plus/Wormection Plus-B;',
                     '- Pemberian multivitamin seperti ADE-Plexinj/ Injeksi Vitamin B Kompleks;',
@@ -37,7 +37,7 @@ class CreateTabelDataPenyakit extends Migration
             ],
             [
                 'kode_penyakit' => 'P02',
-                'nama_penyakit' => 'Cacing Gilig',
+                'nama_penyakit' => 'Tidak Terprediksi', 
                 'solusi' => json_encode([
                     '- Pemberian obat cacing yang dapat memberantas cacing gilig, yaitu Wormzolk;',
                     '- Melakukan sanitasi kandang dan peternakan dengan membersihkan, mencuci dan menyemprot, dengan desinfektan (Neo antisep, Medisep atau Formades untuk kandang kosong) setiap hari;',

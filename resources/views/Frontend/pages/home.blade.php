@@ -4,16 +4,19 @@
     <div class="row my-lg-5">
         <div class="col-sm-6 my-lg-5 my-5">
             <div class="my-lg-5">
-                <h4 class="text-custom">Sistem Pakar Metode Dempster Shafer</h4>
+                <h4 class="text-custom">Jauhkan Diri dari Kanker Serviks</h4>
                 <p class="text-custom-2">
-                    Sistem pakar ini digunakan untuk menentukan jenis gangguan saluran pencernaan pada hewan
-                    musang. Manfaat dari sistem pakar ini adalah untuk dapat memberikan pengetahuan kepada
-                    pemilik hewan musang dengan cepat bagaimana cara mengatasi gangguan saluran pencernaan
-                    pada
-                    hewan musang.
+                    Secara global, kanker serviks menjadi kanker paling umum ke-4 diantara para wanita 
+                    dengan estimasi sebesar 604.000 kasus baru dan kematian sebanyak 342.000 jiwa pada tahun 2020.
+                    Sebagian besar kanker serviks (lebih dari 95%) disebabkan oleh human papillomavirus (HPV). 
+                    Tetapi tingkat cakupan vaksin HPV sangat rendah saat ini (bahkan di beberapa negara maju) menjadikan
+                    skrining rutin sebagai agenda penting yang harus dilakukan para wanita 
+                    untuk mengetahui kondisi kesehatan seksual mereka.
+                    Jadi, tunggu apalagi? 
+                    Periksa sekarang juga! 
                 </p>
                 <a href="{{ URL::to('diagnosa') }}" class="btn btn-custom"><i class="fas fa-play-circle me-1"></i> Mulai
-                    Konsultasi</a>
+                    Periksa</a>
             </div>
         </div>
         {{-- <div class="col-sm-6 my-lg-5 px-lg-5">
