@@ -202,7 +202,7 @@ class CreateTabelBasisPengetahuan extends Migration
             [
                 'kode_penyakit' => 'P01',
                 'kode_gejala' => 'G26',
-                'nilai_densitas' => 1,
+                'nilai_densitas' => 0.7,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -405,7 +405,7 @@ class CreateTabelBasisPengetahuan extends Migration
             [
                 'kode_penyakit' => 'P01',
                 'kode_gejala' => 'G55',
-                'nilai_densitas' => 1,
+                'nilai_densitas' => 0.95,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -443,7 +443,7 @@ class CreateTabelBasisPengetahuan extends Migration
                 'nilai_densitas' => 0.7,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
-            ], 
+            ],
             [
                 'kode_penyakit' => 'P02',
                 'kode_gejala' => 'G05',
@@ -503,7 +503,7 @@ class CreateTabelBasisPengetahuan extends Migration
             [
                 'kode_penyakit' => 'P02',
                 'kode_gejala' => 'G13',
-                'nilai_densitas' => 1,
+                'nilai_densitas' => 0.2,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -608,7 +608,7 @@ class CreateTabelBasisPengetahuan extends Migration
             [
                 'kode_penyakit' => 'P02',
                 'kode_gejala' => 'G28',
-                'nilai_densitas' => 1,
+                'nilai_densitas' => 0.2,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -622,7 +622,7 @@ class CreateTabelBasisPengetahuan extends Migration
             [
                 'kode_penyakit' => 'P02',
                 'kode_gejala' => 'G30',
-                'nilai_densitas' => 1,
+                'nilai_densitas' => 0.2,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -804,7 +804,7 @@ class CreateTabelBasisPengetahuan extends Migration
             [
                 'kode_penyakit' => 'P02',
                 'kode_gejala' => 'G56',
-                'nilai_densitas' => 1,
+                'nilai_densitas' => 0.2,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
