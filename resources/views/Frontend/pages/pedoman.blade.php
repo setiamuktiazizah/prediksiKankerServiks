@@ -10,8 +10,8 @@
             <div class="card-body">
                 <ol class="text-custom">
                     <li>Masuk ke halaman diagnosa</li>
-                    <li>Input detail pemilik dan jenis musang</li>
-                    <li>Pilih gejala yang dialami musang anda</li>
+                    <li>Input detail pemilik dan jenis gejala</li>
+                    <li>Pilih gejala yang Anda alami</li>
                     <li>Lalu, pilih proses data untuk melihat hasil</li>
                     <li>Bookmark website URL data hasil diagnosa, agar dapat anda lihat dikemudian hari jika dibutuhkan.
                     </li>

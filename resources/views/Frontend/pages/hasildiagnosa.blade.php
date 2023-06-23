@@ -59,7 +59,12 @@
 
                 <div class="container-fluid">
                     <h6 class="text-custom">*) Detail Penyakit</h6>
-                    <table class="table table-bordered custom-table" style="width: 100%">
+                    @if ($diagnosa->nama_penyakit == 'Terprediksi')
+                        <div style="color: red" class="fw-bold">Segera periksa ke dokter</div>
+                    @else
+                        <div style="color: green" class="fw-bold">Saat ini kondisimu aman namun tetap waspada</div>
+                    @endif
+                    <table class="table table-bordered custom-table mt-3 mr-5" style="width: 100%">
                         <colgroup>
                             <col span="1" style="width: 15%;">
                             <col span="1" style="width: 5%;">
@@ -81,7 +86,7 @@
                 </div>
 
                 <div class="container-fluid">
-                    <h6 class="text-custom">*) Solusi Penyakit</h6>
+                    <h6 class="text-custom">*) Rekomendasi</h6>
                     <table class="table table-bordered custom-table" style="width: 100%">
                         <tbody>
                             @foreach (json_decode($solusi->solusi) as $solusi)
