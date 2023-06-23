@@ -28,21 +28,23 @@ class CreateTabelDataPenyakit extends Migration
                 'kode_penyakit' => 'P01',
                 'nama_penyakit' => 'Terprediksi',
                 'solusi' => json_encode([
-                    '- Pemberian obat cacing yang dapat membasmi cacing hati, seperti Wormection plus/Wormection Plus-B;',
-                    '- Pemberian multivitamin seperti ADE-Plexinj/ Injeksi Vitamin B Kompleks;',
-                    '- Melakukan sanitasi kandang dan peternakan dengan membersihkan, mencuci dan menyemprot, dengan desinfektan (Neo antisep, Medisep) setiap hari.'
+                    '- Segera periksa ke dokter;',
+                    '- Menerapkan gaya hidup sehat, seperti menjaga berat badan yang sehat, mengonsumsi makanan bergizi, dan berolahraga secara teratur;',
+                    '- Pemeriksaan HPV DNA;',
+                    '- Menggunakan pengaman saat melakukan seks;',
+                    '- Hentikan merokok'
                 ]),
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
             [
                 'kode_penyakit' => 'P02',
-                'nama_penyakit' => 'Tidak Terprediksi', 
+                'nama_penyakit' => 'Tidak Terprediksi',
                 'solusi' => json_encode([
-                    '- Pemberian obat cacing yang dapat memberantas cacing gilig, yaitu Wormzolk;',
-                    '- Melakukan sanitasi kandang dan peternakan dengan membersihkan, mencuci dan menyemprot, dengan desinfektan (Neo antisep, Medisep atau Formades untuk kandang kosong) setiap hari;',
-                    '- Memberikan antibiotik;',
-                    '- Pada pakan ditaburkan copper sulphate untuk mencegah perkembangan larva cacing.'
+                    '- Menerapkan gaya hidup sehat, seperti menjaga berat badan yang sehat, mengonsumsi makanan bergizi, dan berolahraga secara teratur;',
+                    '- Vaksinasi HPV;',
+                    '- Pemeriksaan Pap smear secara berkala;',
+                    '- Hentikan kebiasaan merokok.'
                 ]),
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
