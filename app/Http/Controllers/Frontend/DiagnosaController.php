@@ -78,10 +78,10 @@ class DiagnosaController extends Controller
                     }
 
                     $dataNilaiDensitas[$key] = BasisPengetahuan::where('kode_gejala', $value)
-                        ->select('nilai_densitas', 'kode_gejala', 'kode_penyakit')
+                        ->select('nilai_densitas', 'kode_gejala', 'kode_penyakit', 'gejala')
                         ->get()
                         ->toArray();
-                    $dataGejala[$key] = $dataNilaiDensitas[$key][0]['kode_gejala'];
+                    $dataGejala[$key] = $dataNilaiDensitas[$key][0]['gejala'];
                     $resultData[$key]['belief'] = $dataNilaiDensitas[$key][0]['nilai_densitas'];
                     $resultData[$key]['plausibility'] = 1 - $dataNilaiDensitas[$key][0]['nilai_densitas'];
                 }
