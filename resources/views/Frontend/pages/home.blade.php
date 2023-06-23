@@ -2,6 +2,7 @@
 
 @section('content-wrapper')
     <div class="row my-lg-5">
+      <div class="col-md-6"><img class="card-img-top mb-5 mb-md-0 float-md-end" src="https://img.freepik.com/free-vector/women-climacteric-concept_23-2148671594.jpg?w=900&t=st=1687495455~exp=1687496055~hmac=dcc7cb41123c843d5ab3dc2b1ad96f953de6c2ade1faae2d56c2ef84013f5629" alt="..." /></div>
         <div class="col-sm-6 my-lg-5 my-5">
             <div class="my-lg-5">
                 <h4 class="text-custom">Jauhkan Diri dari Kanker Serviks</h4>
