@@ -9,7 +9,7 @@
             </div>
             <div class="card-body">
                 <div class="container-fluid">
-                    <h6 class="text-custom">*) Detail Pemilik Hewan</h6>
+                    <h6 class="text-custom">*) Detail Pasien</h6>
                     <table class="table table-bordered custom-table" style="width: 100%">
                         <colgroup>
                             <col span="1" style="width: 15%;">
@@ -17,7 +17,7 @@
                         </colgroup>
                         <tbody>
                             <tr>
-                                <td>Nama Pemilik</td>
+                                <td>Nama Pasien</td>
                                 <td>{{ $namaPemilik }}</td>
                             </tr>
                         </tbody>
@@ -35,8 +35,8 @@
                         <thead>
                             <tr class="text-center">
                                 <th>No.</th>
-                                <th>Kode Gejala.</th>
-                                <th>Nama Gejala.</th>
+                                <th>Kode Gejala</th>
+                                <th>Nama Gejala</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -71,7 +71,7 @@
                             <col span="1" style="width: 80%;">
                         </colgroup>
                         <tr>
-                            <td>Nama Penyakit</td>
+                            <td>Diagnosa Penyakit</td>
                             <td class="text-center">:</td>
                             <td class="fw-bold">
                                 {{ $diagnosa->nama_penyakit }}
