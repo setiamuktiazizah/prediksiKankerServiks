@@ -32,7 +32,7 @@ class DataPenyakitController extends Controller
     public function create()
     {
         $datas = [
-            'titlePage' => 'Data Penyakit',
+            'titlePage' => 'Data Prediksi',
             'navLink' => 'data-penyakit',
         ];
 

@@ -14,7 +14,7 @@
                 </li>
                 <li class="nav-item">
                     <a class="nav-link {{ $navLink == 'diagnosa' ? 'active' : '' }}"
-                        href="{{ URL::to('diagnosa') }}">Diagnosa</a>
+                        href="{{ URL::to('diagnosa') }}">Konsultasi</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link {{ $navLink == 'pedoman' ? 'active' : '' }}"

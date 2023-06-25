@@ -2,7 +2,7 @@
 
 @section('content-wrapper')
     <div class="container-fluid p-0 m-0 my-5">
-        <h3 class="text-center mb-5 text-custom">Halaman Diagnosa</h3>
+        <h3 class="text-center mb-5 text-custom">Halaman Konsultasi</h3>
         <div class="card kartu-custom">
             <div class="card-header text-white fw-bold">
                 Konsultasi Gejala
@@ -11,7 +11,7 @@
                 <form action="{{ URL::to('diagnosa') }}" method="post">
                     @csrf
                     <div class="mb-3 row">
-                        <label for="nama_pemilik" class="col-sm-2 col-form-label text-custom">Nama Pemilik</label>
+                        <label for="nama_pemilik" class="col-sm-2 col-form-label text-custom">Nama Pasien</label>
                         <div class="col-sm-10">
                             <input type="text" class="form-control @error('nama_pemilik') is-invalid @enderror"
                                 id="nama_pemilik" name="nama_pemilik" value="{{ old('nama_pemilik') }}">
