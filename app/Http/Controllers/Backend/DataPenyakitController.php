@@ -16,7 +16,7 @@ class DataPenyakitController extends Controller
     public function index()
     {
         $datas = [
-            'titlePage' => 'Data Penyakit',
+            'titlePage' => 'Data Prediksi',
             'navLink' => 'data-penyakit',
             'dataPenyakit' => Penyakit::all()
         ];
